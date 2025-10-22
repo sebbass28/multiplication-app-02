@@ -1,0 +1,31 @@
+body {
+  font-family: system-ui, sans-serif;
+  max-width: 600px;
+  margin: 2rem auto;
+  line-height: 1.6;
+  padding: 0 1rem;
+}
+h1,
+h3 {
+  color: #2a4b7c;
+}
+button {
+  margin: 0.5rem 0.25rem;
+  padding: 0.5rem 1rem;
+  background: #2a4b7c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+button:hover {
+  background: #436bb0;
+}
+#reload {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+#result p {
+  margin: 0.2rem 0;
+}
